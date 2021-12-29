@@ -1,0 +1,96 @@
+/* # MAINTENANCE
+================================================== */
+.message-maintenance{
+    min-height: 100px;
+    border-top: #000 5px solid;
+    border-bottom: #000 5px solid;
+    padding: 25px 0px 40px 0px;
+    @include background-image( image-url("image-login-background.png") );
+
+    header{
+        img{
+            padding: 22px 0 44px 0;
+            margin: 0 auto;
+        }
+    }
+
+    .title{
+        h1{
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+}
+
+
+/* # NAVIGATION
+================================================== */
+#section-nav {
+    @include box-shadow(rgba(0,0,0,0.75) 0 0 9px 0);
+    @include background-image( image-url("bg-footer.png") );
+    font-family: "Great Vibes",Arial,Helvetica,Sans-Serif;
+    font-size: 28px;
+    color: $white;
+    position: fixed;
+    margin-bottom: 0;
+    border-bottom: none;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+
+    ul.nav{
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        float: none;
+
+        li{
+            list-style: none;
+            float: none;
+            display: inline-block;
+            @include background-image( image-url("menu-separator.png") );
+            background-repeat: no-repeat;
+            background-position: left;
+
+            &:first-child{
+                background: none;
+            }
+
+            &.active{
+                a{
+                    background-color: transparent;
+                    color: #6c6c6c;
+                }
+            }
+
+          a{
+                color: $white;
+                text-decoration: none;
+                padding: 15px 0 11px 0;
+                display: block;
+                margin: 0 18px 0 38px;
+                line-height: 38px;
+                @include transition (all .3s 0 ease-in);
+
+                &:hover{
+                    color: #6c6c6c;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+        
+        ul.nav{    
+            li{
+                display: block;
+                background-image: none;
+                a{
+                    padding: 8px 0 6px 0;
+                    line-height: 32px;
+                }
+            }
+        }
+	}
+}

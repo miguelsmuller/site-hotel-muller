@@ -1,0 +1,16 @@
+/* # ALERT
+================================================== */
+.alert-blue{
+    background-color: #4A6796;
+    color: #FFF;
+
+    .close{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.alert-top{
+    @include border-radius(0);
+    margin: 0;
+}

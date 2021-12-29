@@ -1,0 +1,28 @@
+@import "generic/includes";
+@import "generic/variables";
+@import "generic/mixins";
+@import "generic/base";
+
+@import "structure/header";
+@import "structure/footer";
+@import "structure/home-introduction";
+@import "structure/home-history";
+@import "structure/home-accommodations";
+@import "structure/home-depositions";
+@import "structure/home-city";
+@import "structure/home-news";
+@import "structure/home-contact";
+@import "structure/single";
+@import "structure/maintenance";
+@import "structure/404";
+
+@import "elements/navigation";
+@import "elements/button";
+@import "elements/carousel";
+@import "elements/gallery";
+@import "elements/parallax";
+@import "elements/posts";
+@import "elements/form";
+@import "elements/contact-icons";
+@import "elements/modal";
+@import "elements/alert";

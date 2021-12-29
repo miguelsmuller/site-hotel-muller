@@ -1,0 +1,17 @@
+/* # BUTTON
+================================================== */
+
+.btn-dark{
+    background-color: #403D36;
+    border-radius: 0;
+    color: $white;
+    border: #403D36;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover,
+    &:active,
+    &:focus{
+        color: #FFF;
+    }
+}

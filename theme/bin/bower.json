@@ -1,0 +1,13 @@
+{
+  "name": "hotelmuller-theme",
+  "version": "1.0.2",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#3.1.0",
+    "validationEngine": "#2.6.4",
+    "Aqua-Resizer": "https://github.com/syamilmj/Aqua-Resizer.git",
+    "lightbox": "#2.7.1",
+    "animate.css": "~3.2.1",
+    "jquery-ui": "^1.12.1"
+  }
+}

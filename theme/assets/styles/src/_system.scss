@@ -1,0 +1,126 @@
+@import "variables";
+@import "compass/utilities/sprites";
+
+/* # SYSTEM
+================================================== */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    color: $font-color;;
+    font-size: 14px;
+}
+body{
+    padding-top: 65px;
+}
+
+body{
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+@import "sprites/*.png";
+@include all-sprites-sprites;
+
+/* # ESPAÇAMENTO
+================================================== */
+.nopadding {
+    padding: 0;
+}
+.minpadding {
+    padding: 10px;
+}
+.padding {
+    padding: 25px;
+}
+.maxpadding {
+    padding: 50px;
+}
+.nohpadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.minhpadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hpadding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.maxhpadding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.novpadding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.minvpadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vpadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.maxvpadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* # MARGEM
+================================================== */
+.nomargin {
+    margin: 0;
+}
+.minmargin {
+    margin: 10px;
+}
+.margin {
+    margin: 25px;
+}
+.maxmargin {
+    margin: 50px;
+}
+.nohmargin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.minhmargin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hmargin {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.maxhmargin {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.novmargin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.minvmargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vmargin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.maxvmargin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
